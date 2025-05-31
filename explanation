@@ -1,0 +1,12 @@
+if you accidentally delete a repo in the remote and you have made changes and updated
+and you need to retrive this repo back with all files
+
+
+go to local i have updated changes on vs code (which you have worked)
+ then git log  ===you can see latest commit id
+      git checkout <commit_id>
+      git checkout -b <new branch>
+      then create new repo in remote with same name
+      git remote add origin repo url
+      git commit -m "sdfghjk"
+      git push -u origin main(if you are in master branch just switched to main branch===git checkout main
